@@ -1,6 +1,7 @@
+<img src="icon.png" width="40" height="40" alt="scrcpy" align="right" />
+
 # 🎵 Playlist Desktop
 
-<img src="icon.png" width="90" height="90" alt="scrcpy" align="right" />
 
 Playlist Desktop é uma aplicação Electron que utiliza React para a interface do usuário e Tailwind CSS para estilização. Esta aplicação permite gerenciar playlists de forma eficiente e intuitiva.
 

@@ -1,4 +1,4 @@
-<img src="icon.png" width="40" height="40" alt="scrcpy" align="right" />
+<img src="icon.png" width="70" height="70" alt="scrcpy" align="right" />
 
 # 🎵 Playlist Desktop
 

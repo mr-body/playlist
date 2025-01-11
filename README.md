@@ -8,8 +8,8 @@ Playlist Desktop é uma aplicação Electron que utiliza React para a interface 
 ## Prototipo
 
 <div align="center">
-    <img src="Capturar.PNG" alt="Imagem 1" width="300" />
-    <img src="Capturar2.PNG" alt="Imagem 2" width="300" />
+    <img src="Capturar.PNG" alt="Imagem 1" width="400" />
+    <img src="Capturar2.PNG" alt="Imagem 2" width="400" />
 </div>
 
 ## 📋 Funcionalidades

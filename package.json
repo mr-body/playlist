@@ -1,0 +1,78 @@
+{
+  "name": "meu-projeto-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "react": "webpack --mode development -w",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "me.mrbody.playlistDesktop",
+    "productName": "Playlist Desktop",
+    "asar": true,
+    "directories": {
+      "output": "builder"
+    },
+    "files": [
+      "dist/**/*",
+      "node_modules/**/*",
+      "main.js",
+      "heart.js",
+      "preload.js",
+      "package.json",
+      "icon.ico",
+      "favicon.ico",
+      "icon.png",
+      "setup.ico",
+      "public/**/*"
+    ],
+    "win": {
+      "icon": "./setup.ico",
+      "target": [
+        "nsis"
+      ]
+    },
+    "mac": {
+      "icon": "./setup.icns",
+      "target": [
+        "dmg"
+      ]
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "./setup.ico"
+    }
+  },
+  "repository": "https://github.com/mr-body/Electron-plus",
+  "keywords": [],
+  "author": "Walter Alexandre Santana",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "electron": "^32.2.0",
+    "electron-builder": "^25.1.8",
+    "postcss": "^8.4.49",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sass": "^1.83.0",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "tailwindcss": "^3.4.17",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "googleapis": "^144.0.0",
+    "wavesurfer": "^1.3.4",
+    "wavesurfer.js": "^7.8.12",
+    "youtube-dl-exec": "^3.0.12",
+    "ytdl-core": "^4.11.5"
+  }
+}
